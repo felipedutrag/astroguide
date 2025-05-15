@@ -91,7 +91,7 @@ export default function Home() {
       const { lat, lon } = data[0];
       return { lat: parseFloat(lat), lon: parseFloat(lon) };
     } catch (error: any) {
-      console.error("Erro ao buscar dados:", error);
+      console.error("Erro ao buscar dadods:", error);
       throw new Error(error.message || "Erro ao buscar dados da cidade.");
     }
   };
